@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+.Plan-type {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(100% / 3 - (15px * 2) / 3);
+    flex-shrink: 0;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 15px 25px;
+    border-radius: 30px;
+    margin: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.color {
+    background-color: #6500FF;
+    color: white;
+}
+
+.Plan-button {
+    padding: 10px 60px;
+    border-radius: 10px;
+    border: 0;
+    text-align: center;
+    color: white;
+    background-color: #6500FF;
+}
+
+.Plan-button-mid {
+    padding: 10px 60px;
+    border-radius: 10px;
+    border: 0;
+    text-align: center;
+    color: #6500FF;
+    background-color: white;
+}
+
+.Plan-bonus {
+    text-align: left;
+    list-style: none;
+}
+
+.Plan-Title {
+    text-align: left;
+}
+
+.Plan-subtitle {
+    text-align: left;
+}
+
+.Plan-mo-price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.Plan-price {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Plan-discount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.Discount{
+    padding: 5px;
+    border-radius: 8px;
+    background-color: lightgrey;
+    margin: 5px;
+}
+
+.color-2{
+    color: black;
+}
