@@ -23,7 +23,7 @@ body {
 .Plan {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     max-width: 100%;
     flex-basis: calc(100% / 3 - (15px * 2) / 3);
     flex-shrink: 0;
